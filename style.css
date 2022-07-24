@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #4c5769;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: #EEEEEE;
+}
+
+h1,
+p {
+    margin: 0;
+    text-shadow: -2px -2px 0 #222831,
+    2px -2px 0 #222831,
+    -2px 2px 0 #222831,
+    2px 2px 0 #222831;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.container {
+    width: 430px;
+    height: 529px;
+    border: 2px solid #EEEEEE;
+    background-color: #222831;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.display {
+    width: 430px;
+    height: 104px;
+    padding: 20px;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    text-align: right;
+    background-color: rgb(75, 75, 75);
+    gap: 20px;
+}
+
+.display-upper {
+    color: yellow;
+    height: 20px;
+}
+
+.display-lower {
+    height: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 75px;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:active {
+    transform: scale(1.1);
+    background-color: green;
+}
+
+.clear-all,
+.zero {
+    width: 210px;
+}
+
+.right-column {
+    background-color: #10a1a8;
+}
+
+.clearers{
+    background-color: #da6f13;
+}
+
+.gray {
+    background-color: rgb(75, 75, 75);
+}
